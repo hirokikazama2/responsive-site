@@ -8,27 +8,31 @@ p {
     font-size: 70%;
 }
 
-.neco-images {
-    width: 100%;
-    height: auto;
-    max-height: 250px;
-}
-
 .main-text {
     text-align: center;
     margin: 30px;
 }
 
+.neco-images {
+    background-image: url("neco-img.jpg");
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
 
 /*desktop*/
-@media (min-width: 768px) {
-.neco-images {
+@media (min-width: 769px) {
+
+ .neco-images {
+    height: 500px;
     width: 100%;
-    height: auto;
-    max-height: 500px;
-    
-}    
+    background-size: cover;
+    background-position: center center;
+    }   
 }
+
+
 
 #maincontents {
     background-color: white;
@@ -81,7 +85,7 @@ p {
 }
 
 /*desktop*/
-@media (min-width: 768px) {
+@media (min-width: 769px) {
 
 .box {
     display: -webkit-flex;
